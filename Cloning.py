@@ -63,7 +63,7 @@ def pp1():
     print(logo)
     print(' [•] Checking Your Key For Approval... ')
     try:
-        system = requests.get("https://github.com/Lumagdazz1/Jessica/blob/main/approval.txt").text
+        system = requests.get("https://github.com/Lumagdazz1/Clone/blob/main/Approvalkey.txt").text
         if ky in system:
             print(' [√] Key Approved by Lumagdazz')
             print(f' \033[1;32mYour Key : {str(ky)} ')
